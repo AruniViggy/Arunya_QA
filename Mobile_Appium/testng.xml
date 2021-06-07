@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="AppiumTest">
+    <parameter name = "ModelName" value="Model1"/>
+    <parameter name = "ServerName" value="http://127.0.0.1:4723/wd/hub"/>
+
+
+    <classes>
+      <class name = "AppiumTest" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
